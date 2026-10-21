@@ -21,7 +21,7 @@ test('senha incorreta', async ({ page }) => {
 })
 
 test('com sucesso', async ({ page }) => {
-  await login(page,'qa', 'xperience')
+  await login(page,'q', 'xperience')
   await modal(page, 'Suas credenciais são válidas :)')
 })
 
